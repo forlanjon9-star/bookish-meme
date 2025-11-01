@@ -8,9 +8,9 @@ from openai import OpenAI
 
 # Tokenlar
 TOKEN = os.getenv("8493133123:AAG4XlRunfFMgrFKLp7yREeg-apn4jT93HI")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("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")
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(8493133123:AAG4XlRunfFMgrFKLp7yREeg-apn4jT93HI)
 client = OpenAI(api_key=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)
 
 @bot.message_handler(commands=['start'])
